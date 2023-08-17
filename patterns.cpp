@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
 
+
     // /*      Pattern 1  -  hash box  -- >
     //     # # #
     //     # # #
@@ -17,6 +18,7 @@ int main(){
     //     }
     //     cout<<endl;
     // }
+
 
     // /*      Pattern 2 - Numeric Box 
     //     1 1 1 
@@ -37,6 +39,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 3 - Numeric Triangle 
     //     1 1 1 
     //     2 2  
@@ -55,6 +58,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 4 - Numeric Box 
     //     1 2 3 
@@ -75,6 +79,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 5 - Counting Numeric Box 
     //     1 2 3 
     //     4 5 6 
@@ -94,6 +99,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 6 - Numeric Box Triangle 
     //     1
     //     2 2
@@ -112,6 +118,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 7 - Counting Numeric Box 
     //     1 2 3 
@@ -134,6 +141,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 8 - Numeric Box Triangle 
     //     1
     //     2 1
@@ -152,6 +160,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 9 - Alphabetical Box 
     //     A A A 
@@ -174,6 +183,7 @@ int main(){
     //     ch++;
     // }
 
+
     // /*      Pattern 10 - Alphabetical Box
     //     A B C
     //     A B C
@@ -194,6 +204,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 11 - Alphabetical Box
     //     A B C
@@ -217,6 +228,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 12 - Alphabetical Box
     //     A B C
     //     B C D
@@ -239,6 +251,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 13 - Alphabetical Triangle
     //     D C B A
     //     C B A
@@ -259,6 +272,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 14 - Alphabetical Triangle
     //     D  
@@ -281,6 +295,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 15 - Right angled triangle
     //       *
@@ -306,6 +321,7 @@ int main(){
     //     i++;
     // }
 
+
     // /*      Pattern 16 - Right angled triangle
     //     ***
     //      **
@@ -329,6 +345,7 @@ int main(){
     //     cout<<endl;
     //     i++;
     // }
+
 
     // /*      Pattern 17 - Isometric triangle
     //       *
@@ -355,25 +372,52 @@ int main(){
     //     i++;
     // }
 
-    /*      Pattern 18 - Isometric triangle
-        123321
-        12**21
-        1****1
-         
-    */
-    int i,j,n;
-    cout<<"Enter the size of n: ";
-    cin>>n;
-    i=0;
-    while(i<n){
-        j=0;
-        while(j<n-i){
-         
-            j++;
-        }
-        cout<<endl;
-        i++;
-    }
 
+    // /*      Pattern 18 - Isometric triangle
+    //     123321
+    //     12**21
+    //     1****1
+         
+    // */
+    // int i,j,n,a,b;
+    // cout<<"Enter the size of n: ";
+    // cin>>n;
+    // a=n;b=n-1;
+    // i=0;
+    // while(i<n){
+    //     j=0;
+    //     while(j<(2*n)){
+    //         if ((j>b)&&(j<a)){
+    //             cout<<"* ";
+    //         }else if(j<n){
+    //             cout<<j+1<<" ";
+    //         }else{
+    //             cout<<(2*n)-j<<" ";
+    //         }
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     a++;b--;
+    //     i++;
+    // }
+
+
+    // /*  Pattern 19    ------       Fibonacci Series      -----     */
+    // int i,a,b,c,n;
+    // cout<<"Enter the number of terms to be displayed: ";
+    // cin>>n;
+    // a=0;b=1;
+    // cout<<a<<" "<<b<<" ";
+    // for(i=0;i<n-2;i++){
+    //     c=a+b;
+    //     cout<<c<<" ";
+    //     a=b;
+    //     b=c;
+    // }
+
+
+
+
+    
     return 0;
 }
